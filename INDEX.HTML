@@ -1,57 +1,61 @@
-<!DOCTYPE html> <!--Esto le indica al navegador que utilizo html5-->
+<!--Dar estilos al documento de la wiki/entrada de blog
+
+Utilizar clases con notación kebab-case
+Utilizar una tipografía para titulares y otra para texto común
+Utilizar dos o tres colores (no más que eso) de forma consistente, es decir para cosas de un mismo tipo (titulares, texto común, palabras resaltadas, etc)
+Cambiar el tamaño de letra a los elementos-->
+<!DOCTYPE html> 
 <html>
 
-<head>
-    <title>Dragon Ball</title>
-    <link type="text/css" rel="stylesheet" href="style.css"/><!--Esto se utiliza para llamar a css. Se aclara primero el tipo de archivo, despues aclarle que es una hoja de estilo y por último la referancia que es la rupa donde va a estar nuestro archivo (si esta en la misma carpeta no pongo ruta solo el nombre)-->
-    <!--
-        <style>
-        h2{
-            color:green
-        } 
-    </style> 
-    Esto no se hace así pues tiene que leer mucho antes de empezar-->
-</head>
-
-<body>
-
-    <h1>Dragon Ball</h1>
-    <!--<h1 style="color:blueviolet">Dragon Ball</h1> Un elemento h representa un título, h es por heading. No anidarlos.--><!--No se le da color de esta forma-->
-
-    <h2>Dragon Ball</h2>
-    <p>es un manga escrito e ilustrado por Akira Toriyama. Fue publicado originalmente en la revista Shōnen Jump, de la editorial japonesa Shūeisha, entre 1984 y 1995. Su trama describe las aventuras de Gokū, un guerrero saiyajin,
-    cuyo fin es proteger a la Tierra de otros seres que quieren conquistarla y exterminar a la humanidad. Conforme
-    transcurre la trama, conoce a otros personajes que le ayudan en este propósito. El nombre de la serie proviene
-    de unas esferas mágicas que al ser reunidas invocan a un dragón que concede deseos. En varias ocasiones resultan
-    útiles tanto para Gokū y sus amigos como para la humanidad, aunque también son procuradas de forma constante por
-         algunos seres malignos.</p>
-    <hr> <!-- Es una etiqueta abierta que hace una separación entre párrafos temáticos. Separa secciones con una linea horizontal-->
-
-    <h2>Personajes principales</h2>
-
-    <h3>Saiyajin</h3><!-- <ul></ul> es para generar una lista desordenada (unordered list) -->
-
-    <h4>Goku</h4>
-    <p><em>El protagonista de Dragon Ball; un saiyajin</em><!--Esto le da énfasis a una frase-->, también llamado <b>Kakarotto</b><!--Esto me pone en negrita el texto pero no le da importancia--> (カカロット?), que es enviado a la Tierra para exterminar a la humanidad, como parte del plan conquistador de Freezer. Es criado como un humano por<strong> Son Gohan</strong><!--Esto marca que esto es importante-->. Desde su infancia se involucra en la búsqueda de las Dragon Ball junto con Bulma, Yamcha, Oolong y Puar. Con el paso de los años adquiere mayor fuerza y aprende técnicas útiles para derrotar a enemigos que tratan de acabar con los últimos saiyajin, la Tierra y sus habitantes, o que quieren reunir las esferas para pedir deseos malignos. Tiene dos hijos, Goten y Gohan. En la versión original en japonés, Masako Nozawa interpreta vocalmente al personaje en las adaptaciones audiovisuales del manga.</p><!--Este es un elemento párrafo, se utiliza para texto en gral que no tenga un contenido estpecífico. -->
-    <br /><!--Sirve para poner nuevas líneas dentro de un párrafo. Es una etiqueta de tipo abierta.-->
-
-    <h4>Vegeta</h4>
-    <p><mark> El príncipe heredero del planeta Vegeta</mark><!--Esto funciona como resaltador-->. Freezer lo engaña sobre el destino de su planeta y le pide su apoyo para continuar con sus planes de conquista. Años después del arribo de Gokū a la Tierra, Vegeta llega allí mismo junto con Nappa para encontrar las Dragon Balls y pedir un deseo para volverse inmortal. Debido a que Freezer también se entera del poder de estos objetos y desea la vida eterna, Vegeta comienza una rivalidad con este y los miembros de su organización, y le ayuda a Gokū a enfrentarse al villano. A lo largo de la serie, Vegeta expresa su intención de sobrepasar el poder de Gokū. En Japón, el actor Ryo Horikawa interpreta al personaje.</p>
-    <br />
+    <head>
     
-    <h3>Saiyajin híbrido</h3><!--La etiqueta <ol></ol> me genera una lista ordenada (oredered list)-->
-
-    <h4>Gohan</h4>
-    <p>Es entrenado por Piccolo cuando apenas es un niño. Participa en varios enfrentamientos contra villanos que
-    buscan exterminar a la humanidad y es el responsable de la derrota del androide Cell. Se casa con Videl, con
-    quien procrea a Pan. Al igual que con Gokū, Nozawa prestó su voz al personaje en japonés.</p>
-    <br />
-
-    <h4>Trunks</h4>
-    <p>Aparece originalmente como un joven guerrero proveniente del futuro, cuya misión es advertirle a los guerreros Z del surgimiento de unos androides creados por el Dr. Gero, y cuyo objetivo es matar a Gokū. Tras
-    ayudar a los protagonistas en su lucha contra estos seres malignos, regresa a su época original. En la cronología normal de la serie, Trunks aparece como un niño que se enfrenta con Goten al malvado Majin Boo.
-    Posteriormente es uno de los protagonistas de Dragon Ball GT. En la versión japonesa del anime es interpretado por Takeshi Kusao.</p>
+        <title>Dragon Ball</title>
+        <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+        <!--para usar una tipografía puedo usar google fonts, para usarla pongo la etiqueta link en el head antes de la etiqueta link del css el href es una ruta absoluta porque es una dirección determinada-->
+        <link type="text/css" rel="stylesheet" href="styles.css"/> <!--styles.css es una ruta relativa pues importa desde donde la llamo-->
     
-</body>
+    </head>
+
+    <body>
+
+        <h1>Dragon Ball</h1>
+    
+        <h2 class="article-subtitle1">Dragon Ball</h2>
+        <p class="article-introduction">
+            Es un manga escrito e ilustrado por Akira Toriyama. Fue publicado originalmente en la revista Shōnen Jump, de la editorial japonesa Shūeisha, entre 1984 y 1995. Su trama describe las aventuras de Gokū, un guerrero saiyajin,cuyo fin es proteger a la Tierra de otros seres que quieren conquistarla y exterminar a la humanidad. Conforme transcurre la trama, conoce a otros personajes que le ayudan en este propósito. El nombre de la serie proviene de unas esferas mágicas que al ser reunidas invocan a un dragón que concede deseos. En varias ocasiones resultan útiles tanto para Gokū y sus amigos como para la humanidad, aunque también son procuradas de forma constante por algunos seres malignos.
+        </p>
+        <hr>
+
+        <h2 class="article-subtitle1">Personajes principales</h2>
+
+        <h3 class="article-subtitle2">Saiyajin</h3>
+
+        <h4>Goku</h4>
+        <p class="saiyajin-description">
+            El protagonista de Dragon Ball; un saiyajin, también llamado <b>Kakarotto</b> (カカロット?), que es enviado a la Tierra para exterminar a la humanidad, como parte del plan conquistador de Freezer. Es criado como un humano por Son Gohan. Desde su infancia se involucra en la búsqueda de las Dragon Ball junto con Bulma, Yamcha, Oolong y Puar. Con el paso de los años adquiere mayor fuerza y aprende técnicas útiles para derrotar a enemigos que tratan de acabar con los últimos saiyajin, la Tierra y sus habitantes, o que quieren reunir las esferas para pedir deseos malignos. Tiene dos hijos, Goten y Gohan. En la versión original en japonés, Masako Nozawa interpreta vocalmente al personaje en las adaptaciones audiovisuales del manga.
+        </p>
+
+        <br />
+
+        <h4>Vegeta</h4>
+        <p class="saiyajin-description">
+            El príncipe heredero del planeta Vegeta. Freezer lo engaña sobre el destino de su planeta y le pide su apoyo para continuar con sus planes de conquista. Años después del arribo de Gokū a la Tierra, Vegeta llega allí mismo junto con Nappa para encontrar las Dragon Balls y pedir un deseo para volverse inmortal. Debido a que Freezer también se entera del poder de estos objetos y desea la vida eterna, Vegeta comienza una rivalidad con este y los miembros de su organización, y le ayuda a Gokū a enfrentarse al villano. A lo largo de la serie, Vegeta expresa su intención de sobrepasar el poder de Gokū. En Japón, el actor Ryo Horikawa interpreta al personaje.
+        </p>
+        <br />
+        
+        <h3 class="articlesubtitle2">Saiyajin híbrido</h3>
+
+        <h4>Gohan</h4>
+        <p class="saiyajin-description">
+            Es entrenado por Piccolo cuando apenas es un niño. Participa en varios enfrentamientos contra villanos que buscan exterminar a la humanidad y es el responsable de la derrota del androide Cell. Se casa con Videl, con quien procrea a Pan. Al igual que con Gokū, Nozawa prestó su voz al personaje en japonés.
+        </p>
+        <br />
+
+        <h4>Trunks</h4>
+        <p class="saiyajin-description">
+            Aparece originalmente como un joven guerrero proveniente del futuro, cuya misión es advertirle a los guerreros Z del surgimiento de unos androides creados por el Dr. Gero, y cuyo objetivo es matar a Gokū. Tras ayudar a los protagonistas en su lucha contra estos seres malignos, regresa a su época original. En la cronología normal de la serie, Trunks aparece como un niño que se enfrenta con Goten al malvado Majin Boo. Posteriormente es uno de los protagonistas de Dragon Ball GT. En la versión japonesa del anime es interpretado por Takeshi Kusao.
+        </p>
+        
+    </body>
 
 </html>
