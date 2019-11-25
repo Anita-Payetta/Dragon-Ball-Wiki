@@ -1,47 +1,30 @@
-h1 {
-    color: purple;
-    font-size: 42px;
-    font-family: 'Yeon Sung', cursive;
+.article-title {
+    font-family: 'Oswald', Sans-Serif;
+    font-size: 48px;
     font-weight: bold;
 }
-/*utilizo googlefonts para la font-family*/
-/*el font-weight nos da el grosor de la fuente*/
-/*@font-face {
-    font-family: acá va el nombre de la fuente entre comillas simples;
-    src:acá pongo ubicación absoluta o relativa entre comillas simples ;
-    font-weight: número, bold o lo que tenga de opción;
-    font-style: italic
-} uso font-face para cuando no tengo las tipografías de google. Además luego de definirlo puedo usar esto como font-family*/
 
 .article-subtitle1 {
-    color: green;
+    font-family: 'Oswald', Sans-Serif;
     font-size: 26px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .article-subtitle2 {
-    color: darkkhaki;
-    font-size: 22px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Oswald', Sans-Serif;
+    font-size: 24px;
 }
 
-h4 {
-    color: black;
+.article-saiyajin-name {
+    font-family: 'Quattrocento', Serif;
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .article-introdution {
-    color: chocolate;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.saiyajin-description {
-    color: crimson;
+    font-family: 'Quattrocento', Serif;
     font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
-/*para usar una tipografía puedo usar google fonts, para usarla la etiqueta link en html y completo la de css*/
-
+.article-saiyajin-description {
+    font-family: 'Quattrocento', Serif;
+    font-size: 16px;
+}
