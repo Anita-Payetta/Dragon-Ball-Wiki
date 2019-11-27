@@ -1,7 +1,34 @@
+.article-header {
+    background-color: black;
+    height: 220px;
+    text-align: center;
+}
+
+.article-header-image {
+    background-color: black;
+    width: auto;
+    height: 150px;
+}
+
+.article-header-list {
+    list-style: none;
+    color: whitesmoke;
+    font-family: 'Oswald', Sans-Serif;
+    font-size: 18px;
+    text-align: left;
+    padding-inline-start: 0px;
+}
+
+.article-header-list-item {
+    display: inline;
+    margin: 10px 30px;
+}
+
 .article-title {
     font-family: 'Oswald', Sans-Serif;
-    font-size: 48px;
+    font-size: 54px;
     font-weight: bold;
+    text-align: center;
 }
 
 .article-subtitle1 {
@@ -19,7 +46,7 @@
     font-size: 20px;
 }
 
-.article-introdution {
+.article-introduction {
     font-family: 'Quattrocento', Serif;
     font-size: 18px;
 }
@@ -28,3 +55,57 @@
     font-family: 'Quattrocento', Serif;
     font-size: 16px;
 }
+
+.article-theme-description {
+    margin: 0px auto;
+    padding: 15px 15px;
+    border: 2px solid black;
+}
+
+.principal-characters-description {
+    margin: 0px auto;
+    padding: 15px 15px;
+    border: 2px solid black;
+}
+
+.saiyajin-characters-description {
+    width: 45%;
+    height: 700px;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    display: inline-block;
+    border: 1px solid black;
+    vertical-align: top;
+}
+
+.hybrid-saiyajin-characters-description {
+    width: 45%;
+    height: 700px;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    display: inline-block;
+    border: 1px solid black;
+    vertical-align: top;
+}
+
+.article-footer {
+    background-color: black;
+    height: 40px;
+    text-align: center;
+}
+
+.article-footer-list {
+    list-style: none;
+    color: whitesmoke;
+    font-family: 'Oswald', Sans-Serif;
+    font-size: 18px;
+    text-align: left;
+    padding-inline-start: 0px;
+
+}
+
+.article-footer-list-item {
+    display: inline;
+    margin: 0px 30px;
+    vertical-align: middle;
+}   
