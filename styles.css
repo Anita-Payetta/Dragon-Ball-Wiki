@@ -41,28 +41,38 @@
     font-size: 24px;
 }
 
+.article-subtitle3 {
+    font-family: 'Oswald', Sans-Serif;
+    font-size: 22px;
+}
+
 .article-saiyajin-name {
     font-family: 'Quattrocento', Serif;
     font-size: 20px;
 }
 
-.article-introduction {
+.article-introduction-text {
     font-family: 'Quattrocento', Serif;
     font-size: 18px;
 }
 
-.article-saiyajin-description {
+.article-saiyajin-description- {
     font-family: 'Quattrocento', Serif;
     font-size: 16px;
 }
 
-.article-theme-description {
+.article-description-text {
+    font-family: 'Quattrocento', Serif;
+    font-size: 16px;
+}
+
+.article-container {
     margin: 0px auto;
     padding: 15px 15px;
     border: 2px solid black;
 }
 
-.principal-characters-description {
+.principal-characters-container {
     margin: 0px auto;
     padding: 15px 15px;
     border: 2px solid black;
