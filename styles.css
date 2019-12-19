@@ -10,7 +10,7 @@
     height: 150px;
 }
 
-.article-header-list {
+.article-header-nav {
     list-style: none;
     color: whitesmoke;
     font-family: 'Oswald', Sans-Serif;
@@ -19,10 +19,15 @@
     padding-inline-start: 0px;
 }
 
-.article-header-list-item {
+.article-header-nav-item {
     display: inline-block;
     margin: 10px 30px;
     cursor: pointer;
+}
+
+.nav-link {
+    color: whitesmoke;
+    text-decoration: none;
 }
 
 .article-title {
